@@ -12,7 +12,7 @@ body {
 }
 
 .topo {
-    background: white;
+    background: rgb(6, 109, 227);
     color: #1d1d1f;
     padding: 40px 24px;
     text-align: center;
@@ -32,7 +32,7 @@ body {
     cursor: pointer;
 }
 
-secao {
+.secao {
     width: min(1000px, 92%);
     margin: 32px auto;
     background: white;
@@ -74,7 +74,12 @@ form button {
     border: none;
     border-radius: 8px;
 }
-
+#nome{
+    font-family: Arial, sans-serif;
+}
+#mensagem{
+    font-family: Arial, sans-serif;
+}
 @media (max-width: 700px) {
     .cards {
         grid-template-columns: 1fr;
