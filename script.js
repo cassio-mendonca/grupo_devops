@@ -1,12 +1,23 @@
-const botaoDestaque = document.querySelector("#botaoDestaque");
-const servicos = document.querySelector("#servicos");
-const formContato = document.querySelector("#formContato");
+const btn = document.querySelectorAll("button");
+const form = document.querySelector("#formContato");
 const resposta = document.querySelector("#resposta");
-botaoDestaque.addEventListener("click", () => {
- servicos.scrollIntoView({ behavior: "smooth" });
+ 
+btn.forEach(b => {
+    b.onmouseover = () => b.style.background = "#57665F";
+    b.onmouseout = () => b.style.background = "";
 });
-formContato.addEventListener("submit", (evento) => {
- evento.preventDefault();
- const nome = document.querySelector("#nome").value;
- resposta.textContent = `Obrigado pelo contato, ${nome}!`;
-});
+ 
+form.onsubmit = e => {
+    e.preventDefault();
+ 
+    const nome = document.querySelector("#nome").value.trim();
+    const mensagem = document.querySelector("#mensagem").value.trim();
+ 
+    if (!nome || !mensagem) {
+        resposta.textContent = "Preencha todos os campos!";
+        resposta.style.color = "red";
+    } else {
+        resposta.textContent = `Obrigado pelo contato, ${nome}!`;
+        resposta.style.color = "green";
+    }
+};
