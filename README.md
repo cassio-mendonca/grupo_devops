@@ -16,6 +16,6 @@ Evoluir uma página web existente por meio de trabalho colaborativo.
 ## Equipe e suas respectivas áreas
 - Líder/integrador - Cássio Mendonça
 - Desenvolvedor de estrutura - Willian Velasco
-- Desenvolvedor de interface - Pedro Novaes 
+- Desenvolvedor de interface - Pedro Henrique de Moraes
 - Desenvolvedor de funcionalidades - Pedro Novaes
 - Revisor/documentador - Luis Henrique Teixeira
