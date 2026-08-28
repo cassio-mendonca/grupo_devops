@@ -13,5 +13,9 @@ Evoluir uma página web existente por meio de trabalho colaborativo.
 - JavaScript
 - GitHub Pages
 
-## Equipe
-Pedro Novaes, Cássio Mendonça, Luis Henrique Teixeira, Willian Velasco, Pedro Henrique de Morais
+## Equipe e suas respectivas áreas
+- Líder/integrador - Cássio Mendonça
+- Desenvolvedor de estrutura - Willian Velasco
+- Desenvolvedor de interface - Pedro Novaes 
+- Desenvolvedor de funcionalidades - Pedro Novaes
+- Revisor/documentador - Luis Henrique Teixeira
